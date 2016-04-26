@@ -80,7 +80,7 @@
 								<li>Figure out your metric</li>
 								<li>Scaling takes more than just setting it up</li>
 								<li>Hire developers who like testing more than anything else</li>
-								<li>Your host should be a partner no a vendor</li>
+								<li>Your host should be a partner not a vendor</li>
 								<li>If you end well, people remember it positively</li>
 							</ol>
 					</section>
@@ -100,6 +100,7 @@
 										<li>Static Cache</li>
 										<li>Serve cached pages to logged in users</li>
 										<li>Remove header/sidebar carts</li>
+										<li>Turn off My Account page</li>
 									</ul>
 								<li>Lots of products</li>
 								<ul>
@@ -108,6 +109,162 @@
 										<li>Replace WP search</li>
 									</ul>
 							</ul>
+						<aside class="notes">
+							Cache doesn't work when people are placing an order - carts can't be cached.
+					        https://core.trac.wordpress.org/ticket/34848 - Updating Post Meta in bulk.  Normally each add_post_meta creates it's own SQL query; they added code that will batch all into a single query.
+					    </aside>	
+					</section>
+				</section>
+				<section>
+					<h2>Security</h2>
+					<section>
+						<p>You must be PCI compliant<p>
+						<aside class="notes">
+							- Sucuri
+							- Not a law, but still important.
+							- Credit card industry trying to protect itself from financial loss
+							- Penalties: fines & inability to accept credit cards.
+							- Security is not a static state, it is a continuous process
+							- technology is not a replacement for responsibility
+					    </aside>	
+					</section>
+					<section>
+						<ul>
+							<li>Build & maintain a secure network</li>
+							<li>Protect card holder data</li>
+							<li>Maintain a vulnerability management program</li>
+							<li>Implement strong access control measures</li>
+							<li>Regularly monitor & test networks</li>
+							<li>Maintain an information security policy</li>
+						</ul>
+						<aside class="notes">
+							1. Firewall
+							2. Don't use vendor default passwords --
+							3. Protect Stored data
+							4. Encrypt transmission (SSL) --
+							5. Use anti-virus software
+							6. Develop & maintain secure systems (beyond just website: chat/phone) --
+							7. Restrict access - need to know
+							8. Assign unique ID to each person with access
+							9. Restrict physical access --
+							10. Track and monitor access to network resources
+							11. Regularly test
+					    </aside>
+					</section>
+				</section>
+				<section>
+					<h2>Shopping Everywhere</h2>
+					<section>
+						<p>Gone are the days where your customers only shop on your website.</p>
+					</section>
+					<section>
+						<ul>
+							<li>Build mbile first</li>
+							<li>Integrate buy buttons beyond website</li>
+							<ul>
+								<li>Pinterest</li>
+								<li>Email</li>
+								<li>Facebook/Messaging</li>
+							</ul>
+						</ul>
+						<aside class="notes">
+							- Braintree
+							- Adults spend 51% of time on mobile
+							- Smart phone users pick up their phones 85x per day
+							- Buy it button - 87% of pinners have purchased something because of Pinterest
+							- Email nurtuting allows for 50% more sales at 33% less cost
+					    </aside>
+					</section>
+				</section>
+				<section>
+					<h2>Other Useful Information</h2>
+					<section>
+						<h3>Taxes</h3>
+						<ul>
+							<li>Must collect where you have nexus</li>
+							<li>Collect based on shipping address not billing</li>
+							<li><a href="http://SalesTax101.com" target="_blank">SalesTax101.com</a> - free eBook</li>
+							<li><a href="http://youtube.com/taxjar" target="_blank">YouTube.com/taxjar</a> - videos</li>
+						</ul>
+						<aside class="notes">
+							- Nexus: employee, inventory, affiliate, retail location, drop shipping, etc.
+					    </aside>
+					</section>
+					<section>
+						<h3>Shipping</h3>
+						<ul>
+							<li>Customer's last impression of your business</li>
+							<li>Shipping influences purchase decisions</li>
+							<ul>
+								<li>Customers care about shipping when checking out</li>
+								<li>Shipping is the #1 reason for cart abandonment</li>
+							</ul>
+							<aside class="notes">
+								- shopping experience ends when the customer opens the package
+							- Reasons for completing purchase: 81% free shipping, 63% estimated cost and delivery date early in process, having a variety of payment options 54%
+							- 58% shipping made total purchase price higher than expected; 57% not ready to make a purchase just looking at total cost; 55% just creatibg a cart to save for later; 50% Order value didn't qualify for free shipping
+					    </aside>
+					</section>
+					<section>
+						<h3>Shipping Recommendations</h3>
+						<ul>
+							<li>Offer flat rate shipping</li>
+							<li>Free shipping - call to action</li>
+							<li>Free shipping - option</li>
+							<li>Include estimated delivery date</li>
+						</ul>
+						<aside class="notes">
+							- Flat rate: use average shipping rate from historical data; predictablity
+							- Free: don't free ship low value; increase sales
+							- 93% of shoppers take action to qualify for free shipping - add to cart
+							- 50% of consumers choose slower transit time for free shipping
+							- 50% of consumers abandoned cart with no delivery date
+					    </aside>
+					</section>
+					<section>
+						<h3>Memberships</h3>
+						<p>Attracting a new customer costs 5x as much as keeping an existing one.<br/><em>-Lee Resources, 2010</em></p>
+							<aside class="notes">
+								- Replenishment Model
+								- Discovery/Currated Products
+								- Value driven content
+								- Join the cause
+								- loyalty rewards
+					    </aside>
+					</section>
+				</section>
+				<section>
+					<h2>eCommerce Videos</h2>
+					<section>
+						<h3>73%</h3>
+						<p>of US adults are more likely to make a purchase online after watching a video</p>
+					</section>
+					<section>
+						<h3>96%</h3>
+						<p>of US adults find videos helpful when making an online purchase</p>
+					</section>
+					<section>
+						<h3>77%</h3>
+						<p>of US adults consider companies that create online video to be more engaged with customers</p>
+					</section>
+					<section>
+						<img data-src="/fcwp-meetup-wooconf/images/video-types.jpg" alt="Types of marketing videos" width="500px">
+					</section>
+					<section>
+						<img data-src="/fcwp-meetup-wooconf/images/video-results.jpg" alt="Product Video Results" width="500px">
+					</section>
+					<section>
+						<p>Tips for Better Converting Videos<p>
+							<ol>
+								<li>Lighting & sound are more important than video quality</li>
+								<li>Product close ups are important</li>
+								<li>Don't be afrad of getting the details</li>
+								<li>Video length doesn't matter</li>
+								<li>Don't forget calls to action</li>
+								<li>Make the video prominent on your product page</li>
+								<li>Pay attention to your video thumbnail</li>
+								<li>Use social media to deliver the vide</li>
+							</ol>
 					</section>
 				</section>
 			</div>
