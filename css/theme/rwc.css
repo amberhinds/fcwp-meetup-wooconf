@@ -213,7 +213,7 @@ body {
   transition: color .15s ease; }
 
 .reveal a:hover {
-  color: #8dcffc;
+  color: #CADE72;
   text-shadow: none;
   border: none; }
 
@@ -264,16 +264,16 @@ body {
   border-top-color: #9BC93B; }
 
 .reveal .controls .navigate-left.enabled:hover {
-  border-right-color: #8dcffc; }
+  border-right-color: #CADE72; }
 
 .reveal .controls .navigate-right.enabled:hover {
-  border-left-color: #8dcffc; }
+  border-left-color: #CADE72; }
 
 .reveal .controls .navigate-up.enabled:hover {
-  border-bottom-color: #8dcffc; }
+  border-bottom-color: #CADE72; }
 
 .reveal .controls .navigate-down.enabled:hover {
-  border-top-color: #8dcffc; }
+  border-top-color: #CADE72; }
 
 /*********************************************
  * PROGRESS BAR
